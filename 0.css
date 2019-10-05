@@ -1,0 +1,10 @@
+ /* 300ms点击延迟
+ 移动端开发中，在某些机型，某些浏览器上，使用click事件，会延迟300ms在执行 
+
+解决方法：引入fastClick库
+安装：
+ npm i fastclick --save 
+使用：
+在入口文件main.js中引入,并使用
+import fastClick from 'fastClick'
+fastClick.attach(document.body) */
